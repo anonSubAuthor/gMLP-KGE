@@ -35,7 +35,7 @@ To run a model execute the following command :
 ```python run.py --data FB15k --g_drop 0.0 --s_drop 0.0 --input_drop 0.2 --feature_drop 0.2 --hidden_drop 0.2 --init_dim 300 --gcn_dim 300 --embed_dim 300 --k_h 600 --t 0.001```
 - WN18
  
-```python run.py --data wn18 --g_drop 0.0 --s_drop 0.0 --input_drop 0.2 --feature_drop 0.3 --hidden_drop 0.3 --init_dim 300 --gcn_dim 300 --embed_dim 300 --k_h 300 --t 0.1```
+```python run.py --data wn18 --g_drop 0.0 --s_drop 0.0 --input_drop 0.2 --feature_drop 0.3 --hidden_drop 0.3 --init_dim 300 --gcn_dim 300 --embed_dim 300 --k_h 300 --t 0.003```
 - DB100K
    
 ```python run.py --data DB100K --g_drop 0.3 --s_drop 0.0 --input_drop 0.3 --feature_drop 0.3 --hidden_drop 0.3 --init_dim 300 --gcn_dim 300 --embed_dim 300 --k_h 600 --t 0.03```
